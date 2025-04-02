@@ -31,14 +31,18 @@
 </head>
 <body>
   <div class="container" id="content">
-    <h1><span id="countdown">AI Medical Red Flag Checker</span></h1>
+    <h1><span id="countdown">The power of AI</span></h1>
     <p>If you are not redirected automatically, <a href="https://chatgpt.com/g/g-67eadf804fc88191ac36f60eb2bfd60e-medical-red-flag-checker">click here</a>.</p>
   </div>
 
   <script>
-    const words = ["Use AI...", "to identify ...", "potential medical red flags"]; // Words to show each second
+    const words = ["The power of AI", "helping you to identify", "potential medical red flags"]; // Words to show each second
     let index = 0;
     const countdownElement = document.getElementById("countdown");
+	document.getElementById("content").style.fontFamily = "Arial, sans-serif";
+	document.getElementById("content").style.fontSize = "20px";
+	document.getElementById("content").style.fontWeight = "bold";
+	document.getElementById("content").style.fontStyle = "italic";
 
     function updateCountdown() {
       if (index < words.length) {
